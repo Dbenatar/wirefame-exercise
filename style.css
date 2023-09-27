@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkgray;
+}
+
+header img {
+  display: flex;
+  width: 200px;
+  height: 70px;
+
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+}
+div img {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+
+footer {
+  background-color: darkgray;
+  width: 100%;
+}
