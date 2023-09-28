@@ -1,8 +1,6 @@
 header {
   display: flex;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
   background-color: darkgray;
 }
 
@@ -10,21 +8,26 @@ header img {
   display: flex;
   width: 200px;
   height: 70px;
-
+  align-items: flext-start;
 }
 
 nav {
   display: flex;
   width: 100%;
   align-items: center;
-
+  justify-content: space-around;
 }
 
 body {
   display: flex;
+  width: 90%;
   flex-direction: column;
   gap: 30px;
-  justify-content: space-between;
+}
+
+img {
+  display: flex;
+  align-content: space-around;
 }
 div img {
   display: flex;
@@ -37,10 +40,38 @@ main {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
+  width: 90%;
+  align-items: center;
 }
 
+container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 450px;
+}
+
+p {
+  display: flex;
+}
 
 footer {
+  display: flex;
+  justify-content: center;
   background-color: darkgray;
+  color: darkgray;
   width: 100%;
+  height: 150px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  width: 33.3%;
+}
+
+button:hover {
+  background-color: darkgray;
+  color: black;
+  width: 33.3%;
 }
