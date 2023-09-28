@@ -1,6 +1,7 @@
 header {
   display: flex;
-  width: 100%;
+  justify-content: center;
+  padding: 1rem;
   background-color: darkgray;
 }
 
@@ -8,7 +9,7 @@ header img {
   display: flex;
   width: 200px;
   height: 70px;
-  align-items: flext-start;
+  align-items: flex-start;
 }
 
 nav {
@@ -22,37 +23,57 @@ body {
   display: flex;
   width: 90%;
   flex-direction: column;
-  gap: 30px;
+  gap: 30p
 }
 
 img {
   display: flex;
   align-content: space-around;
+  padding: 2rem;
 }
-div img {
+section img {
   display: flex;
   width: auto;
   flex-direction: row;
+  justify-content: center;
 }
 
 main {
-  display: flex;
+  display: row;
+  margin: 0 auto;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: space-between;
-  width: 90%;
+  max-width: 960px;
   align-items: center;
+  margin: 0 auto;
 }
 
-container {
+section {
   display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+article img {
+  max-height: 400px;
+}
+
+article container {
+  max-height: 330px;
   width: 450px;
 }
 
 p {
   display: flex;
+  max-height: 330px;
+  overflow-y: scroll;
 }
 
 footer {
@@ -68,10 +89,13 @@ button {
   background-color: black;
   color: white;
   width: 33.3%;
+  padding: 0.25rem 0.5rem;
 }
 
 button:hover {
   background-color: darkgray;
   color: black;
   width: 33.3%;
+  padding: 0.25rem 0.5rem;
+  transition: 0.35s;
 }
